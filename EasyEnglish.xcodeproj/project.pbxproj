@@ -11,14 +11,38 @@
 		3E73EC852B6A9722002EAE4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73EC842B6A9722002EAE4F /* ContentView.swift */; };
 		3E73EC872B6A9724002EAE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E73EC862B6A9724002EAE4F /* Assets.xcassets */; };
 		3E73EC8A2B6A9724002EAE4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E73EC892B6A9724002EAE4F /* Preview Assets.xcassets */; };
+		3E73EC982B6A99C2002EAE4F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73EC972B6A99C2002EAE4F /* MainView.swift */; };
+		3E73EC9A2B6A99CC002EAE4F /* AddWordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73EC992B6A99CC002EAE4F /* AddWordView.swift */; };
+		3E73EC9C2B6A9A0B002EAE4F /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73EC9B2B6A9A0B002EAE4F /* MainPresenter.swift */; };
+		3E73EC9E2B6A9A13002EAE4F /* AddWordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73EC9D2B6A9A13002EAE4F /* AddWordPresenter.swift */; };
+		3E73ECA02B6A9A82002EAE4F /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73EC9F2B6A9A82002EAE4F /* MainInteractor.swift */; };
+		3E73ECA22B6A9A92002EAE4F /* AddWordInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73ECA12B6A9A92002EAE4F /* AddWordInteractor.swift */; };
+		3E73ECA52B6AADA9002EAE4F /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73ECA42B6AADA9002EAE4F /* Word.swift */; };
+		3E73ECA72B6AADBB002EAE4F /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73ECA62B6AADBB002EAE4F /* MainRouter.swift */; };
+		3E73ECA92B6AADED002EAE4F /* WordRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73ECA82B6AADED002EAE4F /* WordRealm.swift */; };
+		3E73ECAB2B6AADFF002EAE4F /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E73ECAA2B6AADFF002EAE4F /* NetworkError.swift */; };
+		F438EDF374B0189E4B5B6BF6 /* Pods_EasyEnglish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D46768DEA81FA4A5B683E96 /* Pods_EasyEnglish.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DA52532258CDE6B327DCF0C /* Pods-EasyEnglish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEnglish.debug.xcconfig"; path = "Target Support Files/Pods-EasyEnglish/Pods-EasyEnglish.debug.xcconfig"; sourceTree = "<group>"; };
 		3E73EC7F2B6A9722002EAE4F /* EasyEnglish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyEnglish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E73EC822B6A9722002EAE4F /* EasyEnglishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyEnglishApp.swift; sourceTree = "<group>"; };
 		3E73EC842B6A9722002EAE4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E73EC862B6A9724002EAE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E73EC892B6A9724002EAE4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3E73EC972B6A99C2002EAE4F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3E73EC992B6A99CC002EAE4F /* AddWordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordView.swift; sourceTree = "<group>"; };
+		3E73EC9B2B6A9A0B002EAE4F /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		3E73EC9D2B6A9A13002EAE4F /* AddWordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordPresenter.swift; sourceTree = "<group>"; };
+		3E73EC9F2B6A9A82002EAE4F /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		3E73ECA12B6A9A92002EAE4F /* AddWordInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordInteractor.swift; sourceTree = "<group>"; };
+		3E73ECA42B6AADA9002EAE4F /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		3E73ECA62B6AADBB002EAE4F /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		3E73ECA82B6AADED002EAE4F /* WordRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRealm.swift; sourceTree = "<group>"; };
+		3E73ECAA2B6AADFF002EAE4F /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		9D46768DEA81FA4A5B683E96 /* Pods_EasyEnglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyEnglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD49B51F0D933CC747A02A46 /* Pods-EasyEnglish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEnglish.release.xcconfig"; path = "Target Support Files/Pods-EasyEnglish/Pods-EasyEnglish.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +50,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F438EDF374B0189E4B5B6BF6 /* Pods_EasyEnglish.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14CE73DBE8B412B71CE8D89D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DA52532258CDE6B327DCF0C /* Pods-EasyEnglish.debug.xcconfig */,
+				CD49B51F0D933CC747A02A46 /* Pods-EasyEnglish.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3E73EC762B6A9722002EAE4F = {
 			isa = PBXGroup;
 			children = (
 				3E73EC812B6A9722002EAE4F /* EasyEnglish */,
 				3E73EC802B6A9722002EAE4F /* Products */,
+				14CE73DBE8B412B71CE8D89D /* Pods */,
+				F5240EF060B8A1B87C375253 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +87,13 @@
 		3E73EC812B6A9722002EAE4F /* EasyEnglish */ = {
 			isa = PBXGroup;
 			children = (
+				3E73EC962B6A97C9002EAE4F /* Network Layer */,
+				3E73EC952B6A97C1002EAE4F /* Realm Database */,
+				3E73EC942B6A97B8002EAE4F /* Router */,
+				3E73EC932B6A97AC002EAE4F /* Entity */,
+				3E73EC922B6A97A6002EAE4F /* Presenter */,
+				3E73EC912B6A97A1002EAE4F /* Interactor */,
+				3E73EC902B6A978F002EAE4F /* View */,
 				3E73EC822B6A9722002EAE4F /* EasyEnglishApp.swift */,
 				3E73EC842B6A9722002EAE4F /* ContentView.swift */,
 				3E73EC862B6A9724002EAE4F /* Assets.xcassets */,
@@ -67,6 +110,73 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		3E73EC902B6A978F002EAE4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3E73EC972B6A99C2002EAE4F /* MainView.swift */,
+				3E73EC992B6A99CC002EAE4F /* AddWordView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3E73EC912B6A97A1002EAE4F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3E73EC9F2B6A9A82002EAE4F /* MainInteractor.swift */,
+				3E73ECA12B6A9A92002EAE4F /* AddWordInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3E73EC922B6A97A6002EAE4F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3E73EC9B2B6A9A0B002EAE4F /* MainPresenter.swift */,
+				3E73EC9D2B6A9A13002EAE4F /* AddWordPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3E73EC932B6A97AC002EAE4F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				3E73ECA42B6AADA9002EAE4F /* Word.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3E73EC942B6A97B8002EAE4F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3E73ECA62B6AADBB002EAE4F /* MainRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		3E73EC952B6A97C1002EAE4F /* Realm Database */ = {
+			isa = PBXGroup;
+			children = (
+				3E73ECA82B6AADED002EAE4F /* WordRealm.swift */,
+			);
+			path = "Realm Database";
+			sourceTree = "<group>";
+		};
+		3E73EC962B6A97C9002EAE4F /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				3E73ECAA2B6AADFF002EAE4F /* NetworkError.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		F5240EF060B8A1B87C375253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D46768DEA81FA4A5B683E96 /* Pods_EasyEnglish.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E73EC8D2B6A9724002EAE4F /* Build configuration list for PBXNativeTarget "EasyEnglish" */;
 			buildPhases = (
+				E07CE88FD7303313F1FADDAC /* [CP] Check Pods Manifest.lock */,
 				3E73EC7B2B6A9722002EAE4F /* Sources */,
 				3E73EC7C2B6A9722002EAE4F /* Frameworks */,
 				3E73EC7D2B6A9722002EAE4F /* Resources */,
+				6C28D8AEF69E92D3CC0D623C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 3E73EC762B6A9722002EAE4F;
+			packageReferences = (
+				3E73ECA32B6A9EAC002EAE4F /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 3E73EC802B6A9722002EAE4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,12 +247,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C28D8AEF69E92D3CC0D623C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyEnglish/Pods-EasyEnglish-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyEnglish/Pods-EasyEnglish-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyEnglish/Pods-EasyEnglish-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07CE88FD7303313F1FADDAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyEnglish-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E73EC7B2B6A9722002EAE4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E73EC9C2B6A9A0B002EAE4F /* MainPresenter.swift in Sources */,
+				3E73ECA92B6AADED002EAE4F /* WordRealm.swift in Sources */,
+				3E73EC9A2B6A99CC002EAE4F /* AddWordView.swift in Sources */,
+				3E73ECA52B6AADA9002EAE4F /* Word.swift in Sources */,
+				3E73ECA22B6A9A92002EAE4F /* AddWordInteractor.swift in Sources */,
+				3E73EC9E2B6A9A13002EAE4F /* AddWordPresenter.swift in Sources */,
+				3E73ECA72B6AADBB002EAE4F /* MainRouter.swift in Sources */,
 				3E73EC852B6A9722002EAE4F /* ContentView.swift in Sources */,
+				3E73EC982B6A99C2002EAE4F /* MainView.swift in Sources */,
+				3E73ECAB2B6AADFF002EAE4F /* NetworkError.swift in Sources */,
+				3E73ECA02B6A9A82002EAE4F /* MainInteractor.swift in Sources */,
 				3E73EC832B6A9722002EAE4F /* EasyEnglishApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +433,7 @@
 		};
 		3E73EC8E2B6A9724002EAE4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA52532258CDE6B327DCF0C /* Pods-EasyEnglish.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -274,6 +442,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EasyEnglish/Preview Content\"";
 				DEVELOPMENT_TEAM = R94N88JCWX;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -295,6 +464,7 @@
 		};
 		3E73EC8F2B6A9724002EAE4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD49B51F0D933CC747A02A46 /* Pods-EasyEnglish.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,6 +473,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"EasyEnglish/Preview Content\"";
 				DEVELOPMENT_TEAM = R94N88JCWX;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -344,6 +515,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E73ECA32B6A9EAC002EAE4F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.46.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 3E73EC772B6A9722002EAE4F /* Project object */;
 }
